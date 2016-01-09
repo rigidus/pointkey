@@ -1,4 +1,4 @@
-update=Сб. 02 янв. 2016 04:06:20
+update=Сб. 09 янв. 2016 09:57:10
 version=1
 last_client=kicad
 [pcbnew]
@@ -68,3 +68,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=/home/rigidus/repo/kicad-library/library/relays
+LibName31=/home/rigidus/repo/kicad_my_library/relay_1rt
+LibName32=/home/rigidus/repo/kicad_my_library/кт315
