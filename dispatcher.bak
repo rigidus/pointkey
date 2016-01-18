@@ -156,8 +156,6 @@ F 3 "" H 4250 1500 50  0000 C CNN
 	1    4250 1500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3300 1700 3300 2150
 Connection ~ 1800 1200
 Wire Wire Line
 	2300 1200 1800 1200
@@ -181,17 +179,13 @@ Wire Wire Line
 Wire Wire Line
 	1800 1100 1800 3450
 Wire Wire Line
-	3400 1700 3400 2500
-Wire Wire Line
 	1700 1100 1700 3100
-Wire Wire Line
-	3400 2500 3200 2500
 Wire Wire Line
 	2900 2500 2750 2500
 Wire Wire Line
 	1800 2500 2350 2500
 Wire Wire Line
-	3300 2150 3000 2150
+	3000 2150 3400 2150
 Wire Wire Line
 	1700 2150 2400 2150
 $Comp
@@ -228,39 +222,49 @@ F 3 "" H 3050 3450 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3200 3450 4300 3450
-Wire Wire Line
 	2900 3450 2750 3450
 Wire Wire Line
-	3000 3100 4200 3100
-Wire Wire Line
-	4200 3100 4200 1700
-Wire Wire Line
-	4300 3450 4300 1700
+	3000 3100 4300 3100
 Text GLabel 2850 1800 0    60   Input ~ 0
 SWI_1
 Wire Wire Line
-	2850 1800 3300 1800
-Connection ~ 3300 1800
+	2850 1800 3400 1800
 Text GLabel 3850 1800 0    60   Input ~ 0
 SWI_2
-Wire Wire Line
-	3850 1800 4200 1800
-Connection ~ 4200 1800
 Text GLabel 3750 2100 2    60   Input ~ 0
 IND_1
-Wire Wire Line
-	3750 2100 3400 2100
-Connection ~ 3400 2100
 Text GLabel 4750 2100 2    60   Input ~ 0
 IND_2
-Wire Wire Line
-	4750 2100 4300 2100
-Connection ~ 4300 2100
 Connection ~ 1800 2500
 Connection ~ 1700 2150
 Wire Wire Line
 	1700 3100 2400 3100
 Wire Wire Line
 	1800 3450 2350 3450
+Wire Wire Line
+	3400 2150 3400 1700
+Connection ~ 3400 1800
+Wire Wire Line
+	3300 1700 3300 2500
+Wire Wire Line
+	3300 2500 3200 2500
+Wire Wire Line
+	3750 2100 3600 2100
+Wire Wire Line
+	3600 2100 3600 2000
+Wire Wire Line
+	3600 2000 3300 2000
+Connection ~ 3300 2000
+Wire Wire Line
+	3850 1800 4300 1800
+Connection ~ 4300 1800
+Wire Wire Line
+	4750 2100 4200 2100
+Connection ~ 4200 2100
+Wire Wire Line
+	4300 3100 4300 1700
+Wire Wire Line
+	3200 3450 4200 3450
+Wire Wire Line
+	4200 3450 4200 1700
 $EndSCHEMATC
