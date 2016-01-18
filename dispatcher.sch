@@ -1,0 +1,270 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:relays
+LIBS:relay_1rt
+LIBS:кт315
+LIBS:pointkey-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SW_PUSH SW2
+U 1 1 569C6EA9
+P 2700 2150
+F 0 "SW2" H 2850 2260 50  0000 C CNN
+F 1 "SW_PUSH" H 2700 2070 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_SMALL" H 2700 2150 50  0001 C CNN
+F 3 "" H 2700 2150 50  0000 C CNN
+	1    2700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D4
+U 1 1 569C6EFF
+P 2550 2500
+F 0 "D4" H 2550 2600 50  0000 C CNN
+F 1 "LED" H 2550 2400 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 2550 2500 50  0001 C CNN
+F 3 "" H 2550 2500 50  0000 C CNN
+	1    2550 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 569C6F7B
+P 3050 2500
+F 0 "R9" V 3130 2500 50  0000 C CNN
+F 1 "R" V 3050 2500 50  0000 C CNN
+F 2 "Discret:R3-5" V 2980 2500 50  0001 C CNN
+F 3 "" H 3050 2500 50  0000 C CNN
+	1    3050 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P4
+U 1 1 569C6FED
+P 1750 900
+F 0 "P4" H 1750 1050 50  0000 C CNN
+F 1 "CONN_01X02" V 1850 900 50  0000 C CNN
+F 2 "Connect:AK300-2" H 1750 900 50  0001 C CNN
+F 3 "" H 1750 900 50  0000 C CNN
+	1    1750 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P5
+U 1 1 569C7030
+P 3350 1500
+F 0 "P5" H 3350 1650 50  0000 C CNN
+F 1 "CONN_01X02" V 3450 1500 50  0000 C CNN
+F 2 "Connect:AK300-2" H 3350 1500 50  0001 C CNN
+F 3 "" H 3350 1500 50  0000 C CNN
+	1    3350 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR06
+U 1 1 569C7F94
+P 1350 1200
+F 0 "#PWR06" H 1350 1050 50  0001 C CNN
+F 1 "VCC" H 1350 1350 50  0000 C CNN
+F 2 "" H 1350 1200 50  0000 C CNN
+F 3 "" H 1350 1200 50  0000 C CNN
+	1    1350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 569C7FC8
+P 2050 1550
+F 0 "#PWR07" H 2050 1300 50  0001 C CNN
+F 1 "GND" H 2050 1400 50  0000 C CNN
+F 2 "" H 2050 1550 50  0000 C CNN
+F 3 "" H 2050 1550 50  0000 C CNN
+	1    2050 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG08
+U 1 1 569C8018
+P 1350 1750
+F 0 "#FLG08" H 1350 1845 50  0001 C CNN
+F 1 "PWR_FLAG" H 1350 1930 50  0000 C CNN
+F 2 "" H 1350 1750 50  0000 C CNN
+F 3 "" H 1350 1750 50  0000 C CNN
+	1    1350 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG09
+U 1 1 569C8052
+P 2300 950
+F 0 "#FLG09" H 2300 1045 50  0001 C CNN
+F 1 "PWR_FLAG" H 2300 1130 50  0000 C CNN
+F 2 "" H 2300 950 50  0000 C CNN
+F 3 "" H 2300 950 50  0000 C CNN
+	1    2300 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P6
+U 1 1 569C8F47
+P 4250 1500
+F 0 "P6" H 4250 1650 50  0000 C CNN
+F 1 "CONN_01X02" V 4350 1500 50  0000 C CNN
+F 2 "Connect:AK300-2" H 4250 1500 50  0001 C CNN
+F 3 "" H 4250 1500 50  0000 C CNN
+	1    4250 1500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1800 1200
+Wire Wire Line
+	2300 1200 1800 1200
+Wire Wire Line
+	2300 950  2300 1200
+Connection ~ 1700 1900
+Wire Wire Line
+	1700 1900 1350 1900
+Wire Wire Line
+	1350 1900 1350 1750
+Connection ~ 1800 1400
+Wire Wire Line
+	2050 1400 2050 1550
+Wire Wire Line
+	1800 1400 2050 1400
+Connection ~ 1700 1400
+Wire Wire Line
+	1350 1400 1700 1400
+Wire Wire Line
+	1350 1200 1350 1400
+Wire Wire Line
+	1800 1100 1800 3450
+Wire Wire Line
+	1700 1100 1700 3100
+Wire Wire Line
+	2900 2500 2750 2500
+Wire Wire Line
+	1800 2500 2350 2500
+Wire Wire Line
+	3000 2150 3400 2150
+Wire Wire Line
+	1700 2150 2400 2150
+$Comp
+L SW_PUSH SW3
+U 1 1 569C95D2
+P 2700 3100
+F 0 "SW3" H 2850 3210 50  0000 C CNN
+F 1 "SW_PUSH" H 2700 3020 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH_SMALL" H 2700 3100 50  0001 C CNN
+F 3 "" H 2700 3100 50  0000 C CNN
+	1    2700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D5
+U 1 1 569C95D8
+P 2550 3450
+F 0 "D5" H 2550 3550 50  0000 C CNN
+F 1 "LED" H 2550 3350 50  0000 C CNN
+F 2 "LEDs:LED-3MM" H 2550 3450 50  0001 C CNN
+F 3 "" H 2550 3450 50  0000 C CNN
+	1    2550 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R10
+U 1 1 569C95DE
+P 3050 3450
+F 0 "R10" V 3130 3450 50  0000 C CNN
+F 1 "R" V 3050 3450 50  0000 C CNN
+F 2 "Discret:R3-5" V 2980 3450 50  0001 C CNN
+F 3 "" H 3050 3450 50  0000 C CNN
+	1    3050 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2900 3450 2750 3450
+Wire Wire Line
+	3000 3100 4300 3100
+Text GLabel 2850 1800 0    60   Input ~ 0
+SWI_1
+Wire Wire Line
+	2850 1800 3400 1800
+Text GLabel 3850 1800 0    60   Input ~ 0
+SWI_2
+Text GLabel 3750 2100 2    60   Input ~ 0
+IND_1
+Text GLabel 4750 2100 2    60   Input ~ 0
+IND_2
+Connection ~ 1800 2500
+Connection ~ 1700 2150
+Wire Wire Line
+	1700 3100 2400 3100
+Wire Wire Line
+	1800 3450 2350 3450
+Wire Wire Line
+	3400 2150 3400 1700
+Connection ~ 3400 1800
+Wire Wire Line
+	3300 1700 3300 2500
+Wire Wire Line
+	3300 2500 3200 2500
+Wire Wire Line
+	3750 2100 3600 2100
+Wire Wire Line
+	3600 2100 3600 2000
+Wire Wire Line
+	3600 2000 3300 2000
+Connection ~ 3300 2000
+Wire Wire Line
+	3850 1800 4300 1800
+Connection ~ 4300 1800
+Wire Wire Line
+	4750 2100 4200 2100
+Connection ~ 4200 2100
+Wire Wire Line
+	4300 3100 4300 1700
+Wire Wire Line
+	3200 3450 4200 3450
+Wire Wire Line
+	4200 3450 4200 1700
+$EndSCHEMATC
